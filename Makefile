@@ -10,4 +10,4 @@ lint:
 test:
 	python -m pytest -vv --cov=hello test_hello.py
 	
-all:  test lint
+all:  lint test
